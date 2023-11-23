@@ -1,0 +1,7 @@
+telebot
+bs4
+pandas
+lxml
+pyaml
+googletrans
+openpyxl
