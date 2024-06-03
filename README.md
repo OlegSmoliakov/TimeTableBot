@@ -1,12 +1,13 @@
-# TimeTableBot
+# TimeTableBot 
 
-This project will provide convenient access to Georgia Tech University's schedule via telegram bot.
+This project provide convenient access to Georgia Tech University's schedule via telegram bot.
 
-The schedule is parsed by BeautifulSoup and saved to a Sqlite database or xlsx.
+**Note:** This repo was created for demonstration purposes.
 
-After that the database can be used not only for Telegram API, but also for other messengers with API access.
+The schedule is parsed by BeautifulSoup, sent to my friend's db service, and used to retrieve data for user requests.
 
-### Currently:
-- Parsing works with one group from the old schedule
-- Bot remains in demo version
-- The database structure needs to be finalized a bit 
+## Features:
+- Wrote using async libraries aiohttp and aiogram
+- Support internalization, using pybable and i18n middleware from aiogram
+- Automatically updates schedule data each 12 hours
+- 

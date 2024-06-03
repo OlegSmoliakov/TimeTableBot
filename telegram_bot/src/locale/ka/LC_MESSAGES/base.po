@@ -1,0 +1,235 @@
+# Georgian translations for gtu-schedule-bot.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the gtu-schedule-bot
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gtu-schedule-bot VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-06-01 07:22+0000\n"
+"PO-Revision-Date: 2024-05-27 23:24+0400\n"
+"Last-Translator: Oleg Smoliakov <smailzpro@gmail.com>\n"
+"Language: ka\n"
+"Language-Team: ka <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: src/handlers/base_commands.py:39 src/keyboards/inline.py:37
+#: src/keyboards/reply.py:9
+msgid "Help"
+msgstr ""
+
+#: src/handlers/base_commands.py:50 src/keyboards/reply.py:10
+msgid "About"
+msgstr ""
+
+#: src/handlers/base_commands.py:59 src/handlers/base_commands.py:66
+#, fuzzy
+msgid "Select a language"
+msgstr ""
+"\n"
+"აირჩიეთ ენა"
+
+#: src/handlers/base_commands.py:64 src/keyboards/reply.py:11
+#, fuzzy
+msgid "Language"
+msgstr ""
+"\n"
+"აირჩიეთ ენა"
+
+#: src/handlers/base_commands.py:74
+msgid "Language successfully changed"
+msgstr ""
+
+#: src/handlers/base_commands.py:80
+msgid "Keyboard updated"
+msgstr ""
+
+#: src/handlers/menu.py:14 src/keyboards/reply.py:7
+msgid "Week schedule"
+msgstr ""
+
+#: src/handlers/menu.py:24 src/keyboards/reply.py:8
+msgid "Today's schedule"
+msgstr ""
+
+#: src/handlers/menu.py:30
+msgid "There's no class for today"
+msgstr ""
+
+#: src/handlers/registration.py:26
+msgid "Choose your degree"
+msgstr ""
+
+#: src/handlers/registration.py:45
+msgid "Now you can get a schedule for the day or week"
+msgstr ""
+
+#: src/keyboards/inline.py:35
+#, fuzzy
+msgid "Change language"
+msgstr ""
+"\n"
+"აირჩიეთ ენა"
+
+#: src/keyboards/inline.py:36
+msgid "Schedule setup"
+msgstr ""
+
+#: src/keyboards/inline.py:50 src/keyboards/inline.py:179
+msgid "<< Back to start menu"
+msgstr ""
+
+#: src/keyboards/inline.py:59
+msgid "Bachelor's"
+msgstr "ბაკალავრიატი"
+
+#: src/keyboards/inline.py:60
+msgid "Master's"
+msgstr "Მაგისტრის"
+
+#: src/keyboards/inline.py:61
+msgid "Doctorate"
+msgstr "დოქტორანტურა"
+
+#: src/keyboards/inline.py:62
+msgid "Back"
+msgstr ""
+
+#: src/keyboards/inline.py:78
+msgid "<< previous"
+msgstr ""
+
+#: src/keyboards/inline.py:82
+msgid "next >>"
+msgstr ""
+
+#: src/keyboards/inline.py:105
+msgid "Back to Major list"
+msgstr ""
+
+#: src/keyboards/inline.py:130
+msgid "Back to Degree list"
+msgstr ""
+
+#: src/keyboards/inline.py:151
+msgid "Registration successfully finished"
+msgstr ""
+
+#: src/keyboards/inline.py:155
+msgid "Choose your Degree"
+msgstr ""
+
+#: src/keyboards/inline.py:158
+msgid "Choose your Major"
+msgstr ""
+
+#: src/keyboards/inline.py:161
+msgid "Choose your Group"
+msgstr ""
+
+#: src/utils/content.py:8
+msgid "GTU Schedule Bot"
+msgstr ""
+
+#: src/utils/content.py:9
+msgid "Version: {0}"
+msgstr ""
+
+#: src/utils/content.py:10
+msgid "Last schedule update: {0}, id: {1}"
+msgstr ""
+
+#: src/utils/content.py:11
+msgid "Support: {0}, {1}"
+msgstr ""
+
+#: src/utils/content.py:19
+msgid "Commands:"
+msgstr ""
+
+#: src/utils/content.py:20
+msgid "- show this message"
+msgstr ""
+
+#: src/utils/content.py:21
+msgid "- show information about bot"
+msgstr ""
+
+#: src/utils/content.py:22
+#, fuzzy
+msgid "- change language"
+msgstr ""
+"\n"
+"აირჩიეთ ენა"
+
+#~ msgid "Please, select the degree"
+#~ msgstr "გთხოვთ, აირჩიოთ ხარისხი"
+
+#~ msgid "Please, select the pathway"
+#~ msgstr "გთხოვთ, აირჩიოთ აკადემიური სპეციალობა"
+
+#~ msgid "Hello, {0}!"
+#~ msgstr "გამარჯობა, {0}!"
+
+#~ msgid "About"
+#~ msgstr ""
+
+#~ msgid "Choose your major"
+#~ msgstr ""
+
+#~ msgid "< previous page"
+#~ msgstr ""
+
+#~ msgid "next page >"
+#~ msgstr ""
+
+#~ msgid "<< Back to {0}"
+#~ msgstr ""
+
+#~ msgid "Languages"
+#~ msgstr ""
+
+#~ msgid "Computer Science"
+#~ msgstr "Კომპიუტერული მეცნიერება"
+
+#~ msgid "Mathematics"
+#~ msgstr "მათემატიკა"
+
+#~ msgid "Physics"
+#~ msgstr "ფიზიკის ლაბორატორია"
+
+#~ msgid "Last schedule update: {0}"
+#~ msgstr ""
+
+#~ msgid "help"
+#~ msgstr ""
+
+#~ msgid "English"
+#~ msgstr ""
+
+#~ msgid "Русский"
+#~ msgstr ""
+
+#~ msgid "ქართული"
+#~ msgstr ""
+
+#~ msgid "Last schedule update: {0}, id: "
+#~ msgstr ""
+
+#~ msgid "about"
+#~ msgstr ""
+
+#~ msgid "language"
+#~ msgstr ""
+#~ "\n"
+#~ "აირჩიეთ ენა"
+
+#~ msgid "Registration successfully saved"
+#~ msgstr ""
+
