@@ -10,4 +10,3 @@ The schedule is parsed by BeautifulSoup, sent to my friend's db service, and use
 - Wrote using async libraries aiohttp and aiogram
 - Support internalization, using pybable and i18n middleware from aiogram
 - Automatically updates schedule data each 12 hours
-- 
